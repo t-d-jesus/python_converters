@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "python-converters"
+version = "0.1.0"
+description = ""
+authors = ["Jesus <email@example.com.br>"]
+readme = "README.md"
+packages = [{include = "python_converters"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyspark = "^3.3.2"
+uuid = "^1.30"
+time-uuid = "^0.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+uuid = "^1.30"
+time-uuid = "^0.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
